@@ -1,10 +1,5 @@
-const readline = require("readline")
-const { askQuestion, isPriceBetween5Percent, showText, storeSellerAmount, readSellerAmount } = require('./helper');
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+const { askQuestion, isPriceBetween5Percent, showText, storeSellerAmount, readSellerAmount } = require('./helper');
 
 const init = async () => {
   while (true) {
