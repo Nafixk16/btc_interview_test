@@ -38,9 +38,6 @@ const sellPrice = async () => {
 }
 
 const main = async () => {
-  // setInterval(async () => {
- 
-  // }, 10000)
   init()
 }
 
