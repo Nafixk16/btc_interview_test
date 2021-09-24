@@ -1,7 +1,6 @@
 const dotenv = require("dotenv");
 const server = require("http").createServer();
 dotenv.config();
-const { askQuestion, showText } = require("./helper");
 
 
 require('./input')
